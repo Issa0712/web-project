@@ -410,6 +410,9 @@ footer .wrapper_terms > a, footer .wrapper span {
     margin: 0;
     width: 100%;
   }
+  .banner .banner_container i {
+    padding: 3px 10px;
+  }
   .banner .banner_container p {
     font-size: 14px;
   }
