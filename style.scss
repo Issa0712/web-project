@@ -207,6 +207,33 @@ body {
       }
    }
 
+//Mobile Phone view 
+@media screen and (max-width: 520px) {
+    header {
+        .header_wrapper{
+            .header_input {
+                margin-left: -10px;
+              &_bar{
+                  input{
+                    width: 150px;
+
+                  }
+              }
+            }
+        }
+    }
+
+    .banner{
+        .banner_container{
+            padding: none;
+            margin: 0;
+            width: 100%;
+           p {
+               font-size: 14px;
+           }
+        }
+    }
+}
 
     
 

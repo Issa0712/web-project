@@ -398,6 +398,23 @@ footer .wrapper_terms > a, footer .wrapper span {
   margin: 5px;
 }
 
+@media screen and (max-width: 520px) {
+  header .header_wrapper .header_input {
+    margin-left: -10px;
+  }
+  header .header_wrapper .header_input_bar input {
+    width: 150px;
+  }
+  .banner .banner_container {
+    padding: none;
+    margin: 0;
+    width: 100%;
+  }
+  .banner .banner_container p {
+    font-size: 14px;
+  }
+}
+
 /*Tablet landscape*/
 @media screen and (min-width: 900px) {
   .main .main_bar {
