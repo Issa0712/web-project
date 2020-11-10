@@ -1,0 +1,66 @@
+//Input used for sidebar & Mobile navbar
+
+input[type="checkbox"]{
+    display: none;
+}
+
+
+input[type="checkbox"]:checked + .mobile-nav {
+    transform: translateX(0);
+  }
+  
+  .mobile-nav {
+    position: fixed;
+    width: $w100;
+    height: 100%;
+    overflow: auto;
+    transform: translateX(100%);
+    transition: transform 0.5s ease;
+    background-color: white;
+    padding: 16px 20px 16px 16px;
+    z-index: 3;
+  
+    &__header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      label {
+        font-size: 25px;
+        cursor: pointer;
+      }
+    }
+
+  .footer__nav{
+    padding: 0 8px 0 16px;
+    border-bottom: 1px solid $secondary-color;
+
+     .footer__btn{
+         h4 {
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             font-size: 20px;
+             text-transform: uppercase;
+             margin: 30px 0 20px 0;
+         }
+     } 
+    .footer__menu {
+        display: flex;
+        flex-direction: column;
+        .footer__menu-item{
+        
+            font-size: 20px;
+            list-style: none;
+            margin: 15px 0 15px 0;
+
+            .footer__menu-link{
+                text-decoration: none;
+               color:  $primary-color;   
+               &:hover {
+                   color: darkblue;
+               }           
+            }
+        }
+      }
+   }
+   
+  }

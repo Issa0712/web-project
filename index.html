@@ -4,17 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    
+    
     <title>Lyft</title>
 </head>
+
 <body>
+ 
+<!--mobile nav-->
+
+    <input type="checkbox" name="" id="mobile-nav" />
+    <div class="mobile-nav">
+      <div class="mobile-nav__header" for="mobile-nav">
+        <a href="#" class="nav__link">
+          <svg
+            fill="rgb(255, 0, 191)"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 72 50"
+            aria-labelledby="lyft-logo"
+            height="40px"
+          >
+            <g>
+              <title id="lyft-logo">Lyft Logo</title>
+              <path
+                d="M.023.888h10.912v28.716c0 4.544 2.12 7.251 3.796 8.411-1.775 1.547-7.198 2.901-11.24-.386C1.106 35.69.022 32.504.022 29.507V.888z"
+              ></path>
+              <path
+                d="M68.218 24.742v-3.018h3.328V11.137H67.89C66.488 4.781 60.717.018 53.815.018c-7.95 0-14.396 6.32-14.396 14.116v24.724c2.265.312 4.964-.04 7.26-1.906 2.384-1.938 3.467-5.124 3.467-8.122v-.91h5.45V17.333h-5.45v-3.199h.013c0-1.98 1.637-3.585 3.656-3.585 2.02 0 3.662 1.605 3.662 3.585v10.608c0 7.796 6.453 14.116 14.403 14.116V28.326c-2.019 0-3.662-1.605-3.662-3.584"
+              ></path>
+              <path
+                d="M26.89 11.137v15.537c0 .883-.746 1.597-1.667 1.597-.92 0-1.667-.714-1.667-1.597V11.137H12.759V29.41c0 3.288 1.137 7.445 6.31 8.799 5.18 1.355 8.185-1.45 8.185-1.45-.274 1.848-2.049 3.201-4.909 3.491-2.164.22-4.93-.483-6.31-1.063v9.681c3.517 1.017 7.236 1.345 10.877.653 6.606-1.257 10.775-6.671 10.775-13.874v-24.51H26.891z"
+              ></path>
+            </g></svg>
+        </a>
+        <label for="mobile-nav">
+          <i class="fa fa-close"></i>
+        </label>
+      </div>
+
+      <div class="footer__nav">
+        <div class="footer__btn"><h4>Driver</h4></div>
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">Why lyft</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">Cities</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">Help</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">Apply to drive</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__nav">
+        <div class="footer__btn"><h4>rider</h4></div>
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">Cities</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">For business</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">Help</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="" class="footer__menu-link">Sign up to ride</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__nav">
+        <div class="footer__btn"><h4>Business</h4></div>
+      </div>
+      <div class="footer__nav">
+        <div class="footer__btn" for="toggle-lyft"><h4>login</h4></div>
+      </div>
+    </div>
+    <!--End of mobile nav-->
+
+
+<!--Header-->
+
     <header>
         <div class="header_wrapper">
             <div class="header_image">
                 <img src="https://timesofsandiego.com/wp-content/uploads/2020/02/Lyft-logo-%E2%80%93-pink-%E2%80%93-cmyk-640x360.jpg" alt="">
             </div>
+            <div class="header_input">
+                <div class="header_input_search">
+                        <i class="fa fa-search"></i>
+                 </div>
+                 <div class="header_input_bar">
+                        <input type="text" placeholder="   Destination">
+                </div>
+
+            </div>
             <div class="header_nav_burger">
-                    <img src="https://css-tricks.com/wp-content/uploads/2012/10/threelines.png" alt="">
+                <div class="bar_1"></div>
+                <div class="bar_2"></div>
+                <div class="bar_3"></div>
                 </div>
             <nav class="header_nav">
                
@@ -46,46 +139,108 @@
             </nav>
         </div>
     </header>
+    <!--End of Header-->
+
+
+
+
+    <section class="banner">
+        <div class="banner_container">
+                <i class="fa fa-info-circle"></i>
+                <p class="banner__text">
+                  Know the best ways to help keep yourself healthy with our
+                  <a href="#" class="banner__link">latest info on COVID-19.</a>
+                </p>
+
+        </div>
+    </section>
 
 <div class="main">
     <div class="main_image">
-        <img src="https://c4.wallpaperflare.com/wallpaper/993/597/222/landscape-new-york-city-cityscape-empire-state-building-wallpaper-preview.jpg" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/The_night_view_of_Kofu_City.jpg/1200px-The_night_view_of_Kofu_City.jpg" alt="">
     </div>
     <div class="main_bar">
         <button class="main_bar_btn1">Sign Up Driver</button>
         <button class="main_bar_btn2">Apply to drive</button>
-        <p>Supporting communities</p>
-        <p>Our apporoach to safety</p>
+       
+        
+            <p> Supporting communities</p>
+            <p>Our apporoach to safety</p>
+    
+    
     </div>
     
 </div>    
 <footer>
     <div class="container">
         <div class="nav">
-            <ul>
-                <h2>Driver</h2>
+            <input type="checkbox" name="" id="footer_nav1">
+
+            <ul class="footer__menu">
+                  <div class="title">
+                    <h2>Driver</h2> 
+
+                    <span><svg id="one"width="16" height="16" viewBox="0 0 16 16" style="fill: currentcolor;"><path d="M8 8.553L12.344 5 14 6.95l-6 4.907L2 6.95 3.656 5z"></path></svg></span>
+                  </div>
+
+             
                 <li>Become a driver</li>
                 <li>cities</li>
                 <li>Help</li>
                 <li>Safety</li>
-            </ul>
+                <li>Express Drive</li>
+                <li>Application Requirement</li>
+                <li>Insurance</li>
+                <li>Earnings</li>
+                <li>Bonus</li>
+                <li>Lyft Rewards</li>
+                <li>Jobs</li>
+                <li>Hub</li>
+              </ul>
         </div>
         <div class="nav">
-                <ul>
-                    <h2>Rider</h2>
+            <input type="checkbox" name="" id="footer_nav2">
+
+                <ul class="footer__menu">
+
+                  <div class="title">
+                      <h2>Rider</h2>
+                      <span><svg id="two"width="16" height="16" viewBox="0 0 16 16" style="fill: currentcolor;"><path d="M8 8.553L12.344 5 14 6.95l-6 4.907L2 6.95 3.656 5z"></path></svg></span>
+                     </div>
+
                     <li>Sign up to ride</li>
                     <li>Buisness profile</li>
                     <li>Rewards</li>
                     <li>Safety</li>
+                    <li>Cities</li>
+                    <li>Events</li>  
+                    <li>Help</li>
+                    <li>Fare Estimate</li>
+                    <li>Airports</li>
+                    <li>Gift Cards</li>
+                    <li>Donate</li>
+                    <li>Blog</li>
                 </ul>
             </div>
             <div class="nav">
-                    <ul>
-                        <h2>Lyft</h2>
+                <input type="checkbox" name="" id="footer_nav3">
+
+                    <ul class="footer__menu">
+                      <div class="title">
+                          <h2>Lyft</h2>
+                          <span><svg id="three"width="16" height="16" viewBox="0 0 16 16" style="fill: currentcolor;"><path d="M8 8.553L12.344 5 14 6.95l-6 4.907L2 6.95 3.656 5z"></path></svg></span>
+
+                      </div>
                         <li>LyftUp</li>
                         <li>Careers</li>
                         <li>Development</li>
-                        <li>Self driving</li>
+                        <li>Self Driving</li>
+                        <li>Developers</li>
+                        <li>Bikes</li>
+                        <li>Scooters</li>
+                        <li>Rentals</li>
+                        <li>Press</li>
+                        <li>Investor Relations</li>
                     </ul>
                 </div>
 
@@ -98,7 +253,25 @@
 
                    
 </div>
+
+<div class="wrapper">
+    <div class="wrapper_social">
+        <i class="fa fa-facebook-square"></i>
+        <i class="fa fa-twitter-square"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <div class="wrapper_terms">
+        <a href="">Terms</a>
+        <a href="">Privacy</a>
+        <span> c2020 Lyft, Inc.</span>
+        <span>CPUC ID No. TCP003251</span>
+
+
+    </div>
+</div>
    
 </footer>
+
+<script src="app.js"></script>
 </body>
 </html>
